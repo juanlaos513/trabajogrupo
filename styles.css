@@ -1,0 +1,115 @@
+.footer {
+    background: #0b0b0f;
+    color: white;
+    padding: 60px 8% 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer-info {
+    max-width: 400px;
+}
+
+.footer-info h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.footer-info p {
+    color: #4aa5c0;
+    line-height: 1.6;
+}
+
+.social-links {
+    display: grid;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+}
+
+.social-card {
+    display: flex;
+    align-items: center;
+    padding: 18px 20px;
+    border: 1px solid #ec7302;
+    border-radius: 15px;
+    background: #1a1519;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-card:hover {
+    transform: translateX(10px);
+    background: #6a04dd;
+}
+
+.social-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.instagram .social-icon {
+    background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+}
+
+.tiktok .social-icon {
+    background: #000;
+    border: 1px solid #555;
+}
+
+.facebook .social-icon {
+    background: #1877f2;
+}
+
+.social-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.social-text span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.social-text small {
+    color: white;
+    margin-top: 4px;
+}
+
+.arrow {
+    font-size: 25px;
+    color: white;
+    transition: 0.3s;
+}
+
+.social-card:hover .arrow {
+    color: rgb(12, 8, 214);
+    transform: translateX(5px);
+}
+
+.footer-bottom {
+    max-width: 1100px;
+    margin: 50px auto 0;
+    padding-top: 20px;
+    border-top: 1px solid #292929;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
