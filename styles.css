@@ -128,7 +128,7 @@ body {
   display: none;
 }
 .gtabanner{
-    margin-top: 10%;
+    margin-top: 70px;
 }
 
 .imggta{
@@ -139,6 +139,7 @@ body {
 }
 
 .juego1{
+
     width: 190px;
     min-height: 190px;
     border-radius:2%;
@@ -150,8 +151,9 @@ body {
    margin-left:3%;
    border: solid;
    border-color: #a855f7;
-    
 }
+
+
 h4{
     color: #f0abfc;
 }
@@ -172,31 +174,14 @@ h4{
     margin-top: 2%;
 }
 
-.gow{
-    border-radius: 20px;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    
-}
-
-.skiro{
-    border-radius: 20px;
+.gow,
+.cod,
+.skiro,
+.red {
     width: 150px;
-    height: auto;
+    height: 200px;
     object-fit: contain;
-}
-.red{
     border-radius: 20px;
-    width: 150px;
-    height: auto;
-    object-fit: contain;
-}
-.cod{
-    border-radius: 20px;
-    width: 170px;
-    height: auto;
-    object-fit: contain;
 }
 
 body{
@@ -206,8 +191,16 @@ body{
 }
 
 main{
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 80px 30px;
+    box-sizing: border-box;
 }
+
 
 button{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
