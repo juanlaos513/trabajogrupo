@@ -1,4 +1,4 @@
- 
+ /* ---------------parte cristian---------------------- */
 
 body {
   font-family: system-ui, -apple-system, sans-serif;
@@ -32,9 +32,12 @@ body {
 }
 
 .logo-img {
-  height: 40px;
-  width: auto;
-  object-fit: contain;
+   margin-left: 5px;
+    margin-top: 5px;
+    width: 90px;
+   height: 90px;
+   border-radius: 50%;
+   object-fit: cover;
 }
 
 .Nav-menu {
@@ -127,8 +130,20 @@ body {
 .Nav-action-mobile {
   display: none;
 }
+/* -------------------------------------------------- */
+/* --------------------parte laos-------------------- */
+/* -------------------------------------------------- */
+.titulo{
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: -10px;
+    font-size: 100px;
+    color: #6a04dd;
+    text-shadow: #c026d3 6px 3px 10px;
+}
+
 .gtabanner{
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .imggta{
@@ -212,6 +227,8 @@ button{
     border: solid;
     border-color: #c026d3;
 }
+
+/* -----------------------------parte juancho------------------------------------ */
 
 
 .footer {
