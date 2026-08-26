@@ -16,13 +16,13 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding: 0.75rem 1.5rem;
 }
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .brand-logo {
@@ -43,12 +43,14 @@ body {
 .Nav-menu {
   display: flex;
   align-items: center;
+  
 }
 
 .Nav-menu ul {
   display: flex;
   list-style: none;
   gap: 2rem;
+  
 }
 
 .nav-link,
@@ -56,7 +58,7 @@ body {
   text-decoration: none;
   color: #94a3b8;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 1.4rem;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
 }
@@ -139,7 +141,7 @@ body {
     margin-bottom: -10px;
     font-size: 100px;
     color: #6a04dd;
-    text-shadow: #c026d3 6px 3px 10px;
+    text-shadow: #d326ca 6px 3px 10px;
 }
 
 .gtabanner{
